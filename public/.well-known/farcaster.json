@@ -7,11 +7,11 @@
   "frame": {
     "version": "1",
     "name": "VāṇīVerse",
-    "homeUrl": "https://vaniverse.app",
+    "homeUrl": "https://app-7d7abe6d-yknp.vercel.app",
     "iconUrl": "https://vaniverse.app/icon.png",
     "splashImageUrl": "https://vaniverse.app/splash.png",
     "splashBackgroundColor": "#0f1419",
-    "webhookUrl": "https://vaniverse.app/api/webhook",
+    "webhookUrl": "https://app-7d7abe6d-yknp.vercel.app/api/webhook",
     "subtitle": "Hindi Voice Commands on X Layer",
     "description": "Co-create, share, and earn with localized Hindi voice commands for smart devices on X Layer",
     "screenshotUrls": [
@@ -20,7 +20,13 @@
       "https://vaniverse.app/screenshot3.png"
     ],
     "primaryCategory": "social",
-    "tags": ["voice", "hindi", "xlayer", "web3", "rewards"],
+    "tags": [
+      "voice",
+      "hindi",
+      "xlayer",
+      "web3",
+      "rewards"
+    ],
     "heroImageUrl": "https://vaniverse.app/hero.png",
     "tagline": "Voice commands in your language",
     "ogTitle": "VāṇīVerse - Hindi Voice Commands",
