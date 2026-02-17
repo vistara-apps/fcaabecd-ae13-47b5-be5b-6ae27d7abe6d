@@ -1,24 +1,22 @@
-import type { Metadata } from 'next'
-import './globals.css'
-import { ThemeProvider } from './components/ThemeProvider'
+import type { Metadata } from "next";
+import "./globals.css";
+import { Providers } from "./components/Providers";
 
 export const metadata: Metadata = {
-  title: 'Base Mini App',
-  description: 'Built with Zara',
-}
+  title: "VāṇīVerse - Hindi Voice Commands on X Layer",
+  description: "Co-create, share, and earn with localized Hindi voice commands on X Layer",
+};
 
 export default function RootLayout({
   children,
-}: {
-  children: React.ReactNode
-}) {
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <html lang="en">
       <body>
-        <ThemeProvider defaultTheme="base">
-          {children}
-        </ThemeProvider>
+        <Providers>{children}</Providers>
       </body>
     </html>
-  )
+  );
 }
