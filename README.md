@@ -1,13 +1,13 @@
 # VāṇīVerse - Hindi Voice Commands on X Layer
 
-A Base Mini App for creating, sharing, and earning with localized Hindi voice commands for smart devices.
+A Base Mini App for creating, sharing, and earning with localized Hindi voice commands on X Layer.
 
 ## Features
 
-- 🎤 **Voice Command Library**: Create and mint Hindi voice commands as NFTs
-- 🏆 **Reputation System**: Earn reputation through quality contributions (SBTs)
-- 🔗 **Farcaster Integration**: Share voice commands as social frames
-- 💰 **OKB Rewards**: Earn rewards for curation and quality contributions
+- 🎤 **Hindi Voice Command Library**: Create and mint voice commands as NFTs
+- 🏆 **OKB Rewards**: Earn rewards for quality contributions
+- 👥 **Community Curation**: Rate and verify commands
+- 🔗 **Farcaster Integration**: Share commands as voice frames
 - ⚡ **X Layer Optimized**: Low gas costs and fast finality
 
 ## Tech Stack
@@ -21,26 +21,29 @@ A Base Mini App for creating, sharing, and earning with localized Hindi voice co
 
 ## Getting Started
 
+1. Install dependencies:
 ```bash
 npm install
+```
+
+2. Run the development server:
+```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view the app.
+3. Open [http://localhost:3000](http://localhost:3000)
 
-## Architecture
+## Environment Variables
 
-- **Smart Contracts**: Voice command NFTs, Reputation SBTs, Reward distribution
-- **Storage**: IPFS for audio files, on-chain metadata
-- **Network**: X Layer (Chain ID: 196)
-- **Wallet**: OKX Wallet integration
+Create a `.env.local` file:
 
-## Key Components
+```
+NEXT_PUBLIC_ONCHAINKIT_API_KEY=your_api_key_here
+```
 
-- `WalletButton`: OKX Wallet connection
-- `VoiceCommandCard`: Display voice commands with ratings
-- `RewardCard`: Show earnings and claim rewards
-- `StatsCard`: Display platform statistics
+## Deployment
+
+Deploy to Vercel or any Next.js hosting platform.
 
 ## License
 
